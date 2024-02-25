@@ -8,10 +8,10 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/dg-light.css">
+		<link rel="stylesheet" href="dist/theme/domoticaGrunn-light.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
 		<div class="reveal">
@@ -38,6 +38,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+                center: false,
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+                transitionSpeed: 'slow',
+                backgroundTransition: 'fade', // none/fade/slide/convex/
                 menu: {
                     // https://github.com/denehyg/reveal.js-menu
                     side: 'left',
@@ -51,9 +55,10 @@
                         { title: 'Links', icon: '<i class="fa fa-link">', src: 'menu-links.html' },
                         { title: 'Info', icon: '<i class="fa fa-info">', src: 'menu-info.html' }],
                     themes: [
-                        { name: 'Dark', theme: 'dist/theme/dg-dark.css' },
-                        { name: 'Light', theme: 'dist/theme/dg-light.css' }],
-                    transitions: false,
+                        { name: 'domoticaGrunn-Dark', theme: 'dist/theme/domoticaGrunn-dark.css' },
+                        { name: 'domoticaGrunn-Light', theme: 'dist/theme/domoticaGrunn-light.css' }],
+                    themesPath: 'dist/theme/',
+                    transitions: true,
                     openButton: false,
                     keyboard: true,
                     sticky: false,
@@ -63,8 +68,8 @@
                     loadIcons: true,
                 },
                 verticator: {
-                    themetag: 'h1',
-                    color: '',
+                    themetag: 'h1', //h1, button
+                    color: '', //#00aaff
                     inversecolor: '',
                     skipuncounted: false,
                     clickable: true,

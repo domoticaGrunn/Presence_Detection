@@ -10,7 +10,7 @@ Voor deze presentatie is [Reveal.js](https://revealjs.com/installation/) gebruik
 - [Vertical slides indicator](https://github.com/Martinomagnifico/reveal.js-verticator) (plugin)
 - Slides in separate Markdown file
 - Themes with logos
-  - DomoticaGrunn, light and dark
+  - domoticaGrunn, light and dark
 - Title needs to be set in 'index.html'
 
 ## Menu files
@@ -49,10 +49,10 @@ Default theme is the domoticaGrunn-dark theme, this is set in 'index.html'.
 
 ![DG-light](images/DG-light-small.png)
 
-css/theme/dg-light.css
+dist/theme/domoticaGrunn-light.css
 
 ### domoticaGrunn-dark
 
 ![DG-dark](images/DG-dark-small.png)
 
-css/theme/dg-dark.css
+dist/theme/domoticaGrunng-dark.css
