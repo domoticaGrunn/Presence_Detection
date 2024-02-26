@@ -76,7 +76,9 @@ Note: Personal device: mobieltje, of smart-watch. Waarmee/Hoe detecteren we een 
 ## Acoustic sensors:
 
 - Meet: geluid
-- Voorbeeld: ???
+- Voorbeeld: Google Nest, Amazon Echo, Apple HomePod
+
+![](img/google_nest.png)
 
 --
 
@@ -121,7 +123,9 @@ Note: Doppler sensor. "That guy with the Swiss accent" review, FMCW 24 GHz
 ## Chemical sensors
 
 - Meet: Chemische samenstelling van de omgeving in gas of vloeistof.
-- Voorbeeld: ???
+- Voorbeeld: CO<sub>2</sub>-sensor, rookmelder
+
+<!-- .slide: data-menu-title="Chemical sensors" data-background-image="img/rookmelder.jpg" data-background-opacity="0.3" -->
 
 --
 
@@ -177,7 +181,9 @@ Garage & Badkamer
 
 ## Conclusie
 
-
+- Tot ziens PIR, hallo Radar
+- Snelle gewenning, veel gemak
+- Batterij maar toch liever bedraad
 
 ---
 
